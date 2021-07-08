@@ -1,0 +1,49 @@
+ДЗ до Четвверга (01.07.2021)
+Linux terminal
+Вот сценарий который надо уметь делать
+
+1) Посмотреть где я - pwd
+2) Создать папку - mkdir newFolder
+3) Зайти в папку - cd newFolder
+4) Создать 3 папки - mkdir f_1 f_2 f_3
+5) Зайти в любоую папку - cd f_1
+6) Создать 5 файлов (3 txt, 2 json) - touch file_1.txt file_2.txt file_3.txt file_4.json file_5.json
+7) Создать 3 папки - mkdir folder1 folder2 folder3
+8. Вывести список содержимого папки - ls (ls -la)
+9) + Открыть любой txt файл - vim file_1.txt
+10) + написать туда что-нибудь, любой текст. - i (and type Hello World!)
+11) + сохранить и выйти. - ESC +  :wq + enter
+12) Выйти из папки на уровень выше - cd ..
+—
+13) переместить любые 2 файла, которые вы создали, в любую другую папку. - mv C:/Users/annas/NewFolder/f_1/file_1.txt C:/Users/annas/NewFolder/f_1/file_2.txt C:/Users/annas/NewFolder/f_3
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку. - cp C:/Users/annas/NewFolder/f_3/file_1.txt C:/Users/annas/NewFolder/f_3/file_2.txt C:/Users/annas/NewFolder/f_2
+15) Найти файл по имени - find . -iname "file_2*"
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает. - tail -f -n 5 test.txt /* exit from tail Ctrl-C*/
+17) вывести несколько первых строк из текстового файла - head -n 5 file_1.txt
+18) вывести несколько последних строк из текстового файла - tail -n 4 file_1.txt
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает. - less file_1.txt
+20) вывести дату и время - date
+=========
+
+Задание *
+1) Отправить http запрос на сервер.
+https://api.quarantine.country/api/v1/regions
+- curl https://api.quarantine.country/api/v1/regions
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13 - cd NewFolder; mkdir f_4 f_5 f_6; cd f_4; touch file_6.txt file_7.txt file_8.txt file_9.json file_10.json; mkdir folder4 folder5 folder6; ls; mv file_6.txt file_7.txt folder4
+
+или
+
+$ vim first.sh
+---vim--- press i
+#!/bin/bash
+cd NewFolder
+mkdir f_4 f_5 f_6; cd f_4
+touch file_6.txt file_7.txt file_8.txt file_9.json file_10.json
+mkdir folder4 folder5 folder6
+ls
+mv file_6.txt file_7.txt folder4
+--- ESC +  :wq + enter ----
+$ bash first.sh
+
+
+=====================
