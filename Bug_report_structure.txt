@@ -1,0 +1,25 @@
+Bug title: 
+
+Bug ID: created automatically
+ 
+Build Number:
+ 
+Severity: 
+
+Priority:
+ 
+Assigned to:
+ 
+Reported By:
+ 
+Status:
+ 
+Environment:
+ 
+Steps To Reproduce:
+
+Actual Result:
+ 
+Expected Result: 
+
+Attachments: 
