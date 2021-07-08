@@ -11,4 +11,4 @@ ModuleName
  			
 1. 		XXXXX     	     Pass    X Fail	
 2. 		XXXXX     	   X Pass      Fail
-3. 		XXXXX     	   X Pass      Fail 		
+3. 		XXXXX     	     Pass    X Fail 		
