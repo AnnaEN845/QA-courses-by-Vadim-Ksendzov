@@ -1,0 +1,172 @@
+{
+	"id": "0099e8e8-aa94-48f4-aa2f-b86d54c1e270",
+	"name": "HW_1",
+	"timestamp": "2021-07-12T15:28:14.833Z",
+	"collection_id": "62a421de-29a9-44d4-ae57-91b686da7cf8",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "7d6f7645-c2b1-4cfd-92cd-2f2cd3cffcb6",
+			"name": "EP_1",
+			"url": "http://162.55.220.72:5005/get_method?name=Stella&age=10",
+			"time": 217,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				217
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "844678af-d74e-4252-9a3d-65443d259adc",
+			"name": "EP_2",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 241,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				241
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8a1ddb22-f72c-4072-a6ba-f4f2427784ac",
+			"name": "EP_3",
+			"url": "http://162.55.220.72:5005/object_info_1?name=Stella&age=10&weight=23",
+			"time": 251,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				251
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "dce9279a-3446-4dea-a626-bbf0afc6fa2c",
+			"name": "EP_4",
+			"url": "http://162.55.220.72:5005/object_info_2?name=Stella&age=10&salary=950",
+			"time": 457,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				457
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "130f1c26-b961-43af-a468-2cd9b314f3cb",
+			"name": "EP_5",
+			"url": "http://162.55.220.72:5005/object_info_3?name=stella&age=10&salary=1500",
+			"time": 258,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				258
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "74b15259-cc93-4bfe-a0a0-76d6749b83e3",
+			"name": "EP_6",
+			"url": "http://162.55.220.72:5005/object_info_4?name=stella&age=10&salary=1500",
+			"time": 230,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				230
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c5aa4fc7-48a1-46da-a567-19c1b3e61839",
+			"name": "EP_7",
+			"url": "http://162.55.220.72:5005 /user_info_2",
+			"time": 243,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				243
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1897,
+	"collection": {
+		"requests": [
+			{
+				"id": "7d6f7645-c2b1-4cfd-92cd-2f2cd3cffcb6",
+				"method": "GET"
+			},
+			{
+				"id": "844678af-d74e-4252-9a3d-65443d259adc",
+				"method": "POST"
+			},
+			{
+				"id": "8a1ddb22-f72c-4072-a6ba-f4f2427784ac",
+				"method": "GET"
+			},
+			{
+				"id": "dce9279a-3446-4dea-a626-bbf0afc6fa2c",
+				"method": "GET"
+			},
+			{
+				"id": "130f1c26-b961-43af-a468-2cd9b314f3cb",
+				"method": "GET"
+			},
+			{
+				"id": "74b15259-cc93-4bfe-a0a0-76d6749b83e3",
+				"method": "GET"
+			},
+			{
+				"id": "c5aa4fc7-48a1-46da-a567-19c1b3e61839",
+				"method": "POST"
+			}
+		]
+	}
+}
