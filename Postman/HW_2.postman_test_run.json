@@ -1,0 +1,277 @@
+{
+	"id": "4c49bd81-7c13-4bb6-ada3-01853d79b42d",
+	"name": "HW_2",
+	"timestamp": "2021-07-21T15:03:00.326Z",
+	"collection_id": "14150716-5df4488c-1e26-4bd0-93aa-c3af5b3de86a",
+	"folder_id": 0,
+	"environment_id": "042f864f-b589-47e8-aade-752d76033d17",
+	"totalPass": 15,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0b34776f-b92b-4f52-8ede-2a3a078bc236",
+			"name": "1_login",
+			"url": "http://162.55.220.72:5005/login",
+			"time": 161,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				161
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2a667ed2-66ea-4297-bde4-18c36c156d6b",
+			"name": "2_user_info",
+			"url": "http://162.55.220.72:5005/user_info",
+			"time": 144,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"Check multiplication": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check multiplication": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				144
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"Check multiplication": true
+				}
+			]
+		},
+		{
+			"id": "3b8187e7-3250-42c6-9b7e-230ac5966e0f",
+			"name": "3_new_data",
+			"url": "http://162.55.220.72:5005/new_data",
+			"time": 156,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"Check multiplication": true,
+				"salary[2] greater than salary[0][1]": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check multiplication": {
+					"pass": 1,
+					"fail": 0
+				},
+				"salary[2] greater than salary[0][1]": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				156
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"Check multiplication": true,
+					"salary[2] greater than salary[0][1]": true
+				}
+			]
+		},
+		{
+			"id": "d5b7456d-0458-4825-ae7b-c7b56ef57cce",
+			"name": "4_test_pet_info",
+			"url": "http://162.55.220.72:5005/test_pet_info",
+			"time": 196,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"Check multiplication": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check multiplication": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				196
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"Check multiplication": true
+				}
+			]
+		},
+		{
+			"id": "ad5d1ba2-2364-4f6c-9e5c-cbee38e073a3",
+			"name": "5_get_test_user",
+			"url": "http://162.55.220.72:5005/get_test_user",
+			"time": 155,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"Name from response eql to user_name from environment": true,
+				"Age from response eql to user_age from environment": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Name from response eql to user_name from environment": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Age from response eql to user_age from environment": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				155
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"Name from response eql to user_name from environment": true,
+					"Age from response eql to user_age from environment": true
+				}
+			]
+		},
+		{
+			"id": "5ffe1b7c-dada-4acb-bcd6-1609cdc05ca0",
+			"name": "6_currency",
+			"url": "http://162.55.220.72:5005/currency",
+			"time": 579,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Random Cur_ID": true
+			},
+			"testPassFailCounts": {
+				"Random Cur_ID": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				579
+			],
+			"allTests": [
+				{
+					"Random Cur_ID": true
+				}
+			]
+		},
+		{
+			"id": "f07112de-739e-4da0-ab42-1253ae78093b",
+			"name": "7_curr_byn",
+			"url": "http://162.55.220.72:5005/curr_byn",
+			"time": 371,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				371
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1762,
+	"collection": {
+		"requests": [
+			{
+				"id": "0b34776f-b92b-4f52-8ede-2a3a078bc236",
+				"method": "POST"
+			},
+			{
+				"id": "2a667ed2-66ea-4297-bde4-18c36c156d6b",
+				"method": "POST"
+			},
+			{
+				"id": "3b8187e7-3250-42c6-9b7e-230ac5966e0f",
+				"method": "POST"
+			},
+			{
+				"id": "d5b7456d-0458-4825-ae7b-c7b56ef57cce",
+				"method": "POST"
+			},
+			{
+				"id": "ad5d1ba2-2364-4f6c-9e5c-cbee38e073a3",
+				"method": "POST"
+			},
+			{
+				"id": "5ffe1b7c-dada-4acb-bcd6-1609cdc05ca0",
+				"method": "POST"
+			},
+			{
+				"id": "f07112de-739e-4da0-ab42-1253ae78093b",
+				"method": "POST"
+			}
+		]
+	}
+}
