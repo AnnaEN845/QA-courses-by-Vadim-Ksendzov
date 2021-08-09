@@ -1,0 +1,43 @@
+
+ADB:
+run app
+
+get APKs path 
+Android Studio: 
+Build - Generate Signed Bundle or APK (select APK and enter all necessary information) 
+Build - Build APKs 
+Adb terminal: 
+Connect device or emulator 
+commands: 
+check connected devices - adb devices
+install app to the device - adb install -t D:.../app/build/output/apk/debug/app-debug.apk
+
+find file
+
+Adb terminal: 
+Connect device or emulator 
+commands: 
+adb devices
+adb shell (if have multiple devices adb -s <device Id> shell)
+adb cd sdcard
+adb find -name "filename"
+adb exit 
+
+transfer logs from mobile to computer using GitBush or terminal
+Adb terminal: 
+
+Connect device or emulator 
+commands: 
+adb logcat - c ( clear old logs)
+adb logcat > D:.....txt ( full file path) 
+Enter - start Ctrl+C - stop
+
+connect to device using Wi-Fi
+Adb terminal: 
+Connect device with a USB cable
+commands: 
+adb tcpip 5555
+Disconnect USB cable 
+adb connect <device IP address>
+
+adb disconnect <device IP address>
