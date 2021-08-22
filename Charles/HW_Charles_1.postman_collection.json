@@ -1,0 +1,203 @@
+{
+	"info": {
+		"_postman_id": "81730c25-03bd-4c3d-a406-04b024f394e2",
+		"name": "HW_Charles_1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get_method",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/get_method?name={{user_name}}&age={{user_age}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"get_method"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "{{user_name}}"
+						},
+						{
+							"key": "age",
+							"value": "{{user_age}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user_info_3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "{{user_name}}",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "{{user_age}}",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "{{user_salary}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/user_info_3",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"user_info_3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "object_info_1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/object_info_1?name={{user_name}}&age={{user_age}}&weight={{user_weight}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"object_info_1"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "{{user_name}}"
+						},
+						{
+							"key": "age",
+							"value": "{{user_age}}"
+						},
+						{
+							"key": "weight",
+							"value": "{{user_weight}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "object_info_3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/object_info_3?name={{user_name}}&age={{user_age}}&salary={{user_salary}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"object_info_3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "{{user_name}}"
+						},
+						{
+							"key": "age",
+							"value": "{{user_age}}"
+						},
+						{
+							"key": "salary",
+							"value": "{{user_salary}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "object_info_4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/object_info_4?name={{user_name}}&age={{user_age}}&salary={{user_salary}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"object_info_4"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "{{user_name}}"
+						},
+						{
+							"key": "age",
+							"value": "{{user_age}}"
+						},
+						{
+							"key": "salary",
+							"value": "{{user_salary}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user_info_2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "{{user_name}}",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "{{user_age}}",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "{{user_salary}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/user_info_2",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"user_info_2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
