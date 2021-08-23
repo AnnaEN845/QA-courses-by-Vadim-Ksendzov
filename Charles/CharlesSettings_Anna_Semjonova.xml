@@ -471,7 +471,7 @@
                   <matchValueRegex>false</matchValueRegex>
                   <matchRequest>true</matchRequest>
                   <matchResponse>true</matchResponse>
-                  <newValue>&quot;daily_food&quot;:0,&quot;daily_sleep&quot;:1550,&quot;name&quot;:&quot;Alla&quot;</newValue>
+                  <newValue>&quot;daily_food&quot;:63.844,&quot;daily_sleep&quot;:60.0,&quot;name&quot;:&quot;Alla&quot;</newValue>
                   <newHeaderRegex>false</newHeaderRegex>
                   <newValueRegex>false</newValueRegex>
                   <matchWholeValue>false</matchWholeValue>
