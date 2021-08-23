@@ -174,7 +174,7 @@
       <height>700</height>
     </mainWindow>
     <currentDirectory>D:\Anna_privat\Document_privat\QA_courses_by_Vadim_Ksendzov\Charles</currentDirectory>
-    <lastCheckUpdates>2021-08-19 13:44:24.36 UTC</lastCheckUpdates>
+    <lastCheckUpdates>2021-08-23 15:13:01.128 UTC</lastCheckUpdates>
   </startupConfiguration>
   <userInterfaceConfiguration>
     <promptToSaveSessions>false</promptToSaveSessions>
@@ -199,7 +199,7 @@
     <properties>
       <entry>
         <string>SessionFrame.splitPlane.dividerLocation.horizontal</string>
-        <int>300</int>
+        <int>612</int>
       </entry>
       <entry>
         <string>SummaryPanel.TABLE_COLUMN_STATES</string>
@@ -486,7 +486,7 @@
                   <matchValueRegex>true</matchValueRegex>
                   <matchRequest>true</matchRequest>
                   <matchResponse>true</matchResponse>
-                  <newValue>&quot;daily_food&quot;:0.1,&quot;daily_sleep&quot;:1559,&quot;name&quot;:&quot;Alla&quot;</newValue>
+                  <newValue>&quot;daily_food&quot;:63.1,&quot;daily_sleep&quot;:60.0,&quot;name&quot;:&quot;Alla&quot;</newValue>
                   <newHeaderRegex>false</newHeaderRegex>
                   <newValueRegex>false</newValueRegex>
                   <matchWholeValue>false</matchWholeValue>
